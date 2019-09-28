@@ -1,0 +1,65 @@
+.block {
+    width:60%;
+}
+
+.block2 {
+    width: 30%;
+    float:left;
+    padding-left: 50px;
+}
+
+.header_text {
+    text-align: center;
+}
+input[type="text"] {
+    float:left;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px inset;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 14px;
+    margin: 0px 0px 1rem;
+    padding: 0.5rem;
+    height: 40px;
+
+    box-sizing: border-box;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+
+select {
+    float:left;
+    border: 1px solid rgb(204, 204, 204);
+    display: block;
+    position: relative;
+
+    background: #eeeeee;
+    color: #727272;
+    text-align: center;
+    width: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+
+button {
+    width: 220px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+
+    border-radius: 5px;
+    background: #929292;
+    
+    float:left;
+    margin-right: 40px;
+    color: #ffffff;
+}
+
+.disenable {
+    background: #e4e4e4;
+}
